@@ -194,6 +194,7 @@ function newElement() {
     alert("You must write something!");
   } else {
     document.getElementById("myUL").appendChild(li);
+    li.innerHTML += "<input type='date'>";
   }
   document.getElementById("myInput").value = "";
 
