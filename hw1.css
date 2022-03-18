@@ -1,0 +1,51 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(22,156,131);
+    background: linear-gradient(90deg, rgb(25, 206, 173) 25%,  rgb(151, 114, 219) 100%);
+    color: aliceblue;
+}
+
+ul li:hover {
+    background: rgb(211, 180, 180);
+}
+
+.orderList{
+    display: block;
+    font-size: 30px;
+    list-style-type: none;
+    border: rgb(19, 29, 2);
+    margin: 1% auto;
+    padding: 32px;
+    
+    text-align:left;
+    width: fit-content;
+    border-style: dashed;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    border-right-width: 10px;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.delDesign {
+    margin-left: 50px;
+}
+
+ul li input {
+    margin-right: 5px;
+    margin-left: 5px;
+}
